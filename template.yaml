@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  athena-udf-example
+
+Globals:
+  Function:
+    Timeout: 20
+
+Resources:
+  AthenaUDFExampleFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: athena-udf-example
+      CodeUri: AthenaUDFExampleFunction
+      Handler: net.sambaiz.athenaudfexample.App
+      Runtime: java11
+      MemorySize: 512
