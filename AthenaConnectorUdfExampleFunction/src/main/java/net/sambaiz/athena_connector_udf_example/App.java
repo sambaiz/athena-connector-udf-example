@@ -1,4 +1,4 @@
-package net.sambaiz.athenaudfexample;
+package net.sambaiz.athena_connector_udf_example;
 
 import com.amazonaws.athena.connector.lambda.handlers.CompositeHandler;
 

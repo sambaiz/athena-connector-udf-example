@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: >
-  athena-udf-example
+  athena-connector-udf-example
 
 Globals:
   Function:
@@ -11,8 +11,8 @@ Resources:
   AthenaUDFExampleFunction:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: athena-udf-example
-      CodeUri: AthenaUDFExampleFunction
-      Handler: net.sambaiz.athenaudfexample.App
+      FunctionName: athena-connector-udf-example
+      CodeUri: AthenaConnectorUDFExampleFunction
+      Handler: net.sambaiz.athena_connector_udf_example.App
       Runtime: java11
       MemorySize: 512
