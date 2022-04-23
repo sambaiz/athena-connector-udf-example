@@ -130,6 +130,6 @@ END RequestId: 9f6de11b-b7c3-41aa-8079-752c65bc8553
 REPORT RequestId: 9f6de11b-b7c3-41aa-8079-752c65bc8553 Duration: 58.51 ms Billed Duration: 59 ms Memory Size: 512 MB Max Memory Used: 210 MB
 ```
 
-## article
+## Article
 
 ([ja](https://www.sambaiz.net/article/402/)/[en](https://www.sambaiz.net/en/article/402/)) Implement Athena's data source connectors and user defined functions (UDF) - sambaiz-net
